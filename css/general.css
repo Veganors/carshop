@@ -1,0 +1,131 @@
+/* div {
+    background-color: blueviolet !important;
+    font-size: 25px;
+} */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_link {
+    text-decoration: none;
+    padding: 8px;
+}
+
+#current_location{
+    background-color: lightblue;
+}
+
+div span {
+    background: pink;
+}
+
+.main_link:hover {
+    background-color: lightcyan;
+}
+
+#firstname:active {
+    background-color: yellow;
+}
+
+.main_link:visited {
+    color: black;
+}
+
+#website_header {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: capitalize;
+    text-decoration: overline;
+    background-color: crimson;
+    text-align: left;
+    text-shadow: 3px 3px 5px yellow;
+    text-indent: 10px;
+    letter-spacing: 0px;
+    word-spacing: 10px;
+}
+
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: lower-roman;
+    list-style-position: outside;
+    /* list-style-image: url("../Images/blue_dot.png"); */
+    /* list-style: url("../images/blue_dot.png") circle outside; */
+}
+
+#about_us_banner {
+    height: 450px;
+    width: 100%;
+    background-color: yellowgreen;
+    background-image: url("../images/Nissan.jpeg");
+    /* background-repeat: repeat; */
+    /* background-position: 50px 100px; */
+    background-attachment: scroll;
+    /* background-size: center center; */
+    /* background: url("../Images/Maceratti.jpeg") no-repeat 250px 250px; */
+
+}
+
+    table {
+        empty-cells: hide;
+        border-collapse: collapse;
+        /* border-spacing: 5px; */
+    }
+
+    .about_us_pic {
+        height: 150px;
+        width: 150px;
+        background-color: royalblue;
+        margin: 50px;
+        padding: 50px;
+        border: 5px dotted red;
+        border-radius: 20px;
+        /* overflow: scroll; */
+        box-sizing: content-box;
+        box-shadow: 5px 10px 0px yellow;
+        display: inline-block;
+
+    }
+
+    #building{
+        background-color: seagreen;
+    }
+
+    #history{
+        background-color: steelblue;
+        /* position: relative;
+        left: 200px; */
+        z-index: 1;
+        clear: left;
+    }
+
+    #people{
+        background-color: chartreuse;
+        /* position: relative;
+        /* z-index: -2; */ 
+        float: left;
+       
+    }
+
+    #vision{
+        background-color: pink;
+        float: right;
+    }
+
+    body{
+        height: 2500px;
+        
+    }
+
+    #container {
+width: 85%;
+margin: auto;
+background-color: lightcyan;
+padding: 15px;
+
+    }
+
